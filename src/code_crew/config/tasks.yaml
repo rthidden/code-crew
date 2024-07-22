@@ -1,24 +1,20 @@
 develop_front_end:
   description: "Create responsive and user-friendly interfaces."
   expected_output: "A fully functional front-end interface."
-  tools: []
 
 develop_back_end:
   description: "Implement server-side logic and database interactions."
   expected_output: "A fully functional back-end system."
-  tools: []
 
 full_stack_development:
   description: "Integrate front-end and back-end components."
   expected_output: "A seamlessly integrated application."
-  tools: []
-
+  
 optimize_and_repair:
   description: "Analyze and improve existing applications."
   expected_output: "Optimized and repaired applications."
-  tools: []
-
+  
 testing_and_qa:
   description: "Perform thorough testing and debugging."
   expected_output: "A bug-free, high-quality application."
-  tools: []
+  
