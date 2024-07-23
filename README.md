@@ -1,7 +1,7 @@
-<<<<<<< HEAD
-# CodeCrew Crew
+# Code-Crew Crew
+The Ultimate Agentic Coding Crew
 
-Welcome to the CodeCrew Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Welcome to the Code-Crew Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you easily set up a multi-agent AI system, leveraging the powerful and flexible framework provided by crewAI. We aim to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
 
 ## Installation
 
@@ -15,7 +15,7 @@ pip install poetry
 
 Next, navigate to your project directory and install the dependencies:
 
-1. First lock the dependencies and then install them:
+1. First, lock the dependencies and then install them:
 ```bash
 poetry lock
 ```
@@ -28,7 +28,7 @@ poetry install
 
 - Modify `src/code_crew/config/agents.yaml` to define your agents
 - Modify `src/code_crew/config/tasks.yaml` to define your tasks
-- Modify `src/code_crew/crew.py` to add your own logic, tools and specific args
+- Modify `src/code_crew/crew.py` to add your logic, tools, and specific args
 - Modify `src/code_crew/main.py` to add custom inputs for your agents and tasks
 
 ## Running the Project
@@ -39,17 +39,17 @@ To kickstart your crew of AI agents and begin task execution, run this from the 
 poetry run code_crew
 ```
 
-This command initializes the code-crew Crew, assembling the agents and assigning them tasks as defined in your configuration.
+This command initializes the Code-Crew Crew, assembling the agents and assigning tasks as defined in your configuration.
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
+This example, unmodified, will run to create a `report.md` file in the root folder with the output of research on LLMs.
 
 ## Understanding Your Crew
 
-The code-crew Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
+The code-crew Crew comprises multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
 
 ## Support
 
-For support, questions, or feedback regarding the CodeCrew Crew or crewAI.
+Get support, questions, or feedback regarding the Code-Crew Crew or crewAI.
 - Visit our [documentation](https://docs.crewai.com)
 - Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
 - [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
@@ -57,6 +57,3 @@ For support, questions, or feedback regarding the CodeCrew Crew or crewAI.
 
 Let's create wonders together with the power and simplicity of crewAI.
 =======
-# code-crew
-The Ultimate Agentic Coding Crew
->>>>>>> 45fee1f326f48a8ab98f2c296559b99af64d902e
