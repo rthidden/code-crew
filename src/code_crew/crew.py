@@ -3,10 +3,9 @@ from crewai import Crew, Process, AnthropicAI
 from code_crew.config.config_loader import load_agents, load_tasks
 
 def create_crew():
-    agents = load_agents()
-    tasks = load_tasks(agents)
-    
     anthropic_ai = AnthropicAI(api_key=os.environ.get("ANTHROPIC_API_KEY"))
+    agents = load_agents(anthropic_ai)
+    tasks = load_tasks(agents)
     
     crew = Crew(
         agents=agents,
