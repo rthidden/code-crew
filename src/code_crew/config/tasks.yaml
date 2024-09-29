@@ -1,0 +1,15 @@
+- name: Design the app architecture
+  description: Create a high-level design for the app
+  agent: architect
+
+- name: Implement the app
+  description: Implement the app based on the design and architecture
+  agent: developer
+  depends_on:
+    - Design the app architecture
+
+- name: Save the app
+  description: Save the implemented app to a specific location
+  agent: developer
+  depends_on:
+    - Implement the app
