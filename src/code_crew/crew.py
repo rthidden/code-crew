@@ -1,6 +1,6 @@
 import os
 from crewai import Crew, Process
-from .config.config_loader import load_agents, load_tasks
+from code_crew.config.config_loader import load_agents, load_tasks
 
 def create_crew():
     agents = load_agents()

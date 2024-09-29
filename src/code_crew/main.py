@@ -1,4 +1,4 @@
-from .crew import create_crew, save_app
+from code_crew.crew import create_crew, save_app
 
 def main():
     crew = create_crew()
